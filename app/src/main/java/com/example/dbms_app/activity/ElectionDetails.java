@@ -60,6 +60,7 @@ public class ElectionDetails extends AppCompatActivity {
                             List<Election> data = adapter.getDataList();
                             Election e = data.get(position);
                             Intent i = new Intent(ElectionDetails.this, com.example.dbms_app.activity.Election.class);
+                            i.putExtra("election_id",e.getId());
                             i.putExtra("singleElection",e);
                             startActivity(i);
                         }

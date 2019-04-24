@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Locations">
+        <item>Allahabad</item>
+        <item>Meerut</item>
+        <item>Chandigarh</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Lucknow</item>
+        <item>Indore</item>
+        <item>Bangalore</item>
+    </string-array>
+</resources>

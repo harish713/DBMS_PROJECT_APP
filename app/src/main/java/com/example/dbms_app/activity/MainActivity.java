@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                     User data = response.body();
                     if(data.getResult() == 0)
                     {
-                        //Log.d("SUCCESS",data.getUsername());
+                        Log.d("SUCCESS",data.getUsername());
                         Toast.makeText(MainActivity.this,"NOT REGISTERED",Toast.LENGTH_LONG).show();
                     }
                     else
